@@ -1,6 +1,6 @@
 {
-  "port": 5000,
+  "port": 5005,
   "jwtSecret": "roman yo mf",
   "mongoUri": "mongodb+srv://Roman:Shadow.1.2.1.2@cluster0.rvrhy.mongodb.net/<dbname>?retryWrites=true&w=majority",
-  "baseUrl": "http://localhost:5000"
+  "baseUrl": "http://localhost:5005"
 }

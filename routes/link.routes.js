@@ -15,7 +15,7 @@ router.post('/generate', auth,  async (req, res) => {
         }
         const to = baseUrl + '/t/' + code
         const link = new Link ({
-            from, to, code, owner: req.user.userId // через middleware auth
+            from, to, code, // через middleware auth
         })
         await link.save()
         res.status(201).json({link})
